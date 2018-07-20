@@ -7,7 +7,7 @@ body {
 
 div {
 	min-width:400px;
-	border-style: 10px ridge black; 
+	border-style: 10px inset black; 
 	background-color:blue;
 	padding:5px;
 	
