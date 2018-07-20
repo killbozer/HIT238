@@ -6,6 +6,7 @@ body {
 }
 
 div {
+	min-width:400px;
 	border-style: 3px ridge; 
 	background-color:blue;
 
