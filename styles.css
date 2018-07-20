@@ -1,5 +1,14 @@
 body {
-	min-width:300px;
+	min-width:400px;
+	background-color:black;
+	
+	
+}
+
+div {
+	border-style: 3px ridge; 
+	background-color:blue;
+
 	
 	
 	
