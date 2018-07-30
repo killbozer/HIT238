@@ -1,3 +1,3 @@
 # HIT238
 
-This is Notepad+ + 1
+This is my profile and/or weekly activity page for HIT238.
