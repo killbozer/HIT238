@@ -1,16 +1,46 @@
 body {
-	min-width:400px;
-	background-color:#CCCCCC;
+	min-width: 400px;
+	background-color: #d64161;
 	
 	
 }
 
-div {
-	min-width:400px;
-	border-style: 10px double black; 
-	background-color:blue;
-	padding:5px;
+h1 {
+	text-align: center;
+	
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header {
+	
+
+	order: 0;
+	width: 75%;
+	display: inline-block;
+	min-width: 200px;
+	border: 8px ridge #cc5200; 
+	background-color: #ff7b25;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 	
 	
+}
+
+
+.main {
+	order: 1;
+	width: 50%;
+	display: inline-block;
+	min-width: 200px;
+	border: 8px ridge #cc5200; 
+	background-color: #ff7b25;
+	padding: 5px;
+	margin-bottom: 40px;
 	
 }
