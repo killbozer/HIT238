@@ -1,22 +1,22 @@
 {
-	name: "My CDU Profile Page",
-	short_name: "Profile Page",
-	icons: [
+	"name": "My CDU Profile Page",
+	"short_name": "Profile Page",
+	"icons": [
 	
 		{
 			
-			src: "home.png",
-			sizes: "128x128",
-			type: "image/png"
+			"src": "home.png",
+			"sizes": "128x128",
+			"type": "image/png"
 			
 		}
 		
 	]
 	
-    start_url: ".",
-    display: "standalone",
-    background_color: "#FFF",
-    theme_color: "#123557"
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFF",
+    "theme_color": "#123557"
 	
 }
 	
