@@ -8,8 +8,8 @@ var urlsToCache = [
 ];
 
 self.addEventListener('install', function(event) {
-  // Perform install steps
-  event.waitUntil(
+// Perform install steps
+	event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
         console.log('Opened cache');
@@ -19,14 +19,14 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-  event.respondWith(
+	event.respondWith(
     caches.match(event.request)
-      .then(function(response) {
+    .then(function(response) {
         // Cache hit - return response
         if (response) {
           return response;
         }
-        return fetch(event.request);
+    return fetch(event.request);
       }
     )
   );
